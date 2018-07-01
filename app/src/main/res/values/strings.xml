@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sinem Book Store Inventory</string>
+
+    <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="category_overview">Overview</string>
+    <string name="hint_product_name">Enter a product</string>
+    <string name="hint_price">Enter price</string>
+    <string name="hint_quantity">Enter quantity</string>
+    <string name="hint_supplier_name">Enter supplier\'s name</string>
+    <string name="hint_supplier_phone_number">Enter supplier\'s phone number</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+
+</resources>
