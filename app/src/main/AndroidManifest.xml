@@ -26,6 +26,10 @@
                 android:value=".CatalogActivity" />
         </activity>
 
+        <provider
+            android:name=".data.ProductProvider"
+            android:authorities="com.example.android.sinembookstoreinventory"
+            android:exported="false" />
 
     </application>
 
