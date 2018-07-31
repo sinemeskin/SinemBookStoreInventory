@@ -2,6 +2,7 @@
     <string name="app_name">Sinem Book Store Inventory</string>
 
     <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
     <string name="category_overview">Overview</string>
     <string name="hint_product_name">Enter a product</string>
     <string name="hint_price">Enter price</string>
@@ -11,6 +12,41 @@
 
     <string name="action_save">Save</string>
     <string name="action_delete">Delete</string>
+
+    <string name="order">Order</string>
+    <string name="sell">Sale</string>
+
+    <string name="delete_dialog_msg">You are about to delete the product. Do you want to continue?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_product_successful">The product has been deleted.</string>
+    <string name="editor_delete_product_failed">The product could not be deleted.</string>
+
+
+    <string name="prod_name">Product Name: </string>
+    <string name="prod_price">Price($): </string>
+    <string name="prod_quantity">Quantity: </string>
+
+    <string name="empty_view_title_text">There is nothing in the inventory. Why don\'t you add a new one?</string>
+
+    <string name="editor_update_product_successful">Product updated</string>
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="illegal_arg_query">Cannot query unknown URI </string>
+    <string name="illegal_arg_insertion">Insertion is not supported for </string>
+    <string name="illegal_arg_update">Update is not supported for </string>
+    <string name="insert_fail">Failed to insert row for </string>
+    <string name="illegal_arg_delete">Deletion is not supported for </string>
+    <string name="illegal_arg_uri">Unknown URI </string>
+    <string name="illegal_arg_match"> with match </string>
+    <string name="fill_blanks">Please fill all the blank spaces above</string>
+    <string name="new_product_added">New product has been added</string>
+    <string name="new_product_failed">New product insertion has failed</string>
+    <string name="non_neg_inventory">Inventory should be nonnegative number</string>
+    <string name="no_stock">No stock left, please make an order.</string>
 
 
 </resources>

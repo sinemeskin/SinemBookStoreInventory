@@ -1,17 +1,17 @@
 package com.example.android.sinembookstoreinventory.data;
 
-import android.provider.BaseColumns;
-import android.net.Uri;
 import android.content.ContentResolver;
+import android.net.Uri;
+import android.provider.BaseColumns;
 
 public class ProductContract {
 
+    public static final String CONTENT_AUTHORITY = "com.example.android.sinembookstoreinventory";
+    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
+    public static final String PATH_PRODUCTS = "products";
+
     private ProductContract() {
     }
-
-    public static final String CONTENT_AUTHORITY ="com.example.android.sinembookstoreinventory";
-    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
-    public static final String PATH_PRODUCTS = "sinembookstoreinventory";
 
     public static final class ProductEntry implements BaseColumns {
 

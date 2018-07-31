@@ -34,5 +34,12 @@
         <item name="android:paddingTop">16dp</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
+
+    <style name="IntroductionTextStyle">
+        <item name="android:paddingRight">@dimen/half_pad</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 </resources>
 

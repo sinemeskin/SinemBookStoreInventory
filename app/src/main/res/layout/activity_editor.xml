@@ -37,13 +37,29 @@
                 android:id="@+id/edit_price"
                 style="@style/EditorFieldStyle"
                 android:hint="@string/hint_price"
-                android:inputType="textCapWords" />
+                android:inputType="numberDecimal" />
+
+
+            <Button
+                android:id="@+id/increaseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="increment"
+                android:text="+" />
 
             <EditText
                 android:id="@+id/edit_quantity"
                 style="@style/EditorFieldStyle"
                 android:hint="@string/hint_quantity"
                 android:inputType="number" />
+
+            <Button
+                android:id="@+id/decreaseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="decrement"
+                android:text="-" />
+
 
             <EditText
                 android:id="@+id/edit_supplier_name"
@@ -55,7 +71,17 @@
                 android:id="@+id/edit_supplier_phone_number"
                 style="@style/EditorFieldStyle"
                 android:hint="@string/hint_supplier_phone_number"
-                android:inputType="textCapWords" />
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/orderButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="setOrder"
+                android:text="@string/order"
+                android:textAllCaps="true" />
 
 
         </LinearLayout>
